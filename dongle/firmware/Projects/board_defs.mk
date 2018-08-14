@@ -45,8 +45,8 @@ ifeq ($(HW_BOARD),MiniRelease1)
 ########################################################################
 _HARDWARE_VER		= 0x15
 FLASH_LOAD_OFFSET	= 0x8000
-HSE_VALUE			= 12000000
-LD_FILE				= versaloonSTM32.ld
+HSE_VALUE			= 8000000
+LD_FILE				= STM32F103C8Tx_FLASH.ld
 TARGET_CHIP			= stm32
 TARGET_STM32		= XLDensity
 USR_DEFS+=-DCORE_DEBUG=STM32_DBG_NONE
