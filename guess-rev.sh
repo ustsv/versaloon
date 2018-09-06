@@ -3,6 +3,6 @@
 
 REV=unknown
 
-which svnversion > /dev/null 2>&1 && REV="2.0"
-
+#which svnversion > /dev/null 2>&1 && REV=`svnversion -n "$1"`
+REV=`git rev-parse --short HEAD`
 echo -n $REV

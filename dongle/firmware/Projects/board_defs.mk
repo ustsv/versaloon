@@ -44,7 +44,7 @@ else
 ifeq ($(HW_BOARD),MiniRelease1)
 ########################################################################
 _HARDWARE_VER		= 0x15
-FLASH_LOAD_OFFSET	= 0x8000
+FLASH_LOAD_OFFSET	= 0x0000
 HSE_VALUE			= 8000000
 LD_FILE				= STM32F103C8Tx_FLASH.ld
 TARGET_CHIP			= stm32
@@ -119,7 +119,7 @@ ifeq ($(HW_BOARD),STM32VL_Discovery)
 _HARDWARE_VER		= 0x33
 FLASH_LOAD_OFFSET	= 0x0000
 HSE_VALUE			= 8000000
-LD_FILE				= st-discovery.ld
+LD_FILE				= STM32F103C8Tx_FLASH.ld
 TARGET_CHIP			= stm32
 TARGET_STM32		= XLDensity
 else

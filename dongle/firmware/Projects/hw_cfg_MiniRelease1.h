@@ -724,7 +724,7 @@
 
 #define TVCC_SAMPLE_MIN_POWER			1800
 
-#define TVCC_SAMPLE_DIV					2
+#define TVCC_SAMPLE_DIV					1
 #define TVCC_SAMPLE_VREF				3300
 #define TVCC_SAMPLE_MAXVAL				4096
 
